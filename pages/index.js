@@ -130,7 +130,6 @@ const Home = () => {
         {img && (
   <div className="output-content">
     <Image src={img} width={512} height={512} alt={finalPrompt} />
-    {/* Add prompt here */}
     <p>{finalPrompt}</p>
   </div>
 )}
